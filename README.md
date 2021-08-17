@@ -16,9 +16,9 @@ terraform plan \
 -var 'base_name=cdw-asedemo-20210817' \
 -var 'location=northcentralus' #\
 
--var 'root_dns_name=something.com' \
--var 'contact_name=John Doe' \
--var 'contact_email=someemail@something.com' #\
+# -var 'root_dns_name=something.com' \
+# -var 'contact_name=John Doe' \
+# -var 'contact_email=someemail@something.com' #\
 
 #--var-file=secrets.tfvars
 
@@ -28,9 +28,9 @@ terraform apply \
 -var 'base_name=cdw-asedemo-20210817' \
 -var 'location=northcentralus' #\
 
--var 'root_dns_name=something.com' \
--var 'contact_name=John Doe' \
--var 'contact_email=email@something.com' #\
+# -var 'root_dns_name=something.com' \
+# -var 'contact_name=John Doe' \
+# -var 'contact_email=email@something.com' #\
 
 #--var-file=secrets.tfvars
 
